@@ -1,5 +1,5 @@
 imageclipr_env <- new.env(parent = emptyenv())
-imageclipr_env$newCode <- function(img_file_name) paste0("![Plot title. ](", img_file_name, ")")
+imageclipr_env$newCode <- function(img_file_name) paste0("![Plot title. ](", img_file_name, "){width=12cm}")
 
 #' Saving the clipboard image to disk
 #'
